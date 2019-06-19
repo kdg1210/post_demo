@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.example.post.service.PostService;
 import com.example.post.vo.PostVO;
 
-@Controller
+@RestController
 @RequestMapping("/old_post")
 public class PostController {
 	@Autowired
